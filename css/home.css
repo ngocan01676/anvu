@@ -1,0 +1,111 @@
+/*
+Common CSS
+*/
+/*
+Font face
+*/
+
+@font-face {font-family: myFont;src:url('font/AvertaDemo-Regular.otf')}
+body{font-family: 'myFont',sans-serif; line-height: 1,3em;font-weight: 500}
+
+.fa-3x{display: none;color: white;}
+#menuRes .menuResponsive{display: none}
+a{transition: all 0.5s ;text-decoration: none;}
+
+/* 
+Top header Area
+*/
+
+#header_area{background: #111111;}
+#header_area img{margin-left: 15px;margin-top: 15px;}
+#header_area ul{list-style: none;padding:0;margin: 0;text-align: left }
+#header_area ul li{display: inline-block;font-size: 15px !important }
+#header_area ul li {padding: 25px 5px;}
+#header_area ul li a img{margin-top:-10px;margin-left: -8px;}
+#header_area ul li a{text-transform: uppercase;display: block;text-decoration: none;color: #ffffff;padding: 18px 15px;}
+#header_area ul li a.last{background:linear-gradient(to right, #ee6f64,#fd9c7b);border-radius: 30px;padding: 15px 30px;}
+
+
+
+/*
+  Menu Responsive
+ */
+#menuRes{background: #111111; }
+#menuRes .menuResponsive{list-style: none;padding: 0;margin: 0}
+#menuRes .menuResponsive li{padding: 10px ;}
+#menuRes .menuResponsive li a{text-transform: uppercase;display: block;text-decoration: none;color: #ffffff}
+#menuRes .menuResponsive li a.last{background:linear-gradient(to right, #ee6f64,#fd9c7b);border-radius: 30px;padding: 10px; width: 200px}
+
+/*
+/* 
+map
+*/
+.clip_path{clip-path: polygon(0 0, 100% 1%, 100% 50%, 50% 64%, 0% 50%);margin-top: -5px;}
+/*
+
+Breadcrumb1
+*/
+.breadcumb{margin-top: -350px;}
+.breadcrumb1{position: relative;}
+.breadcrumb1 .form{position: absolute;width: 100%;top: -80px;}
+
+/*
+/*
+Form Search
+*/
+
+.breadcrumb1 .button a{display:block;margin-top: 35px;background:linear-gradient(to right, #ee6f64,#fd9c7b);border-radius: 30px;padding: 10px;width: 60%;text-decoration: none;color:white;text-align: center;}
+
+.breadcrumb1 .container{min-height: 200px;padding-top:50px;background: #ffffff}
+/*
+  Slide
+
+*/
+.slide h1{font-size: 30px;}
+/*
+
+Footer Style
+*/
+#footer{margin-top: 200px; background: #111111;padding: 30px;color: #ffffff}
+#footer i{font-size: 15px;margin-right: 10px}
+#footer p{color: #7c7c7c}
+#footer .aht{margin-top: 20px;}
+#footer .content{margin-top: 15px;}
+#footer .facebook{margin-top: 15px;}
+#footer .icons i{font-size: 25px}
+#footer .gachchan{border:1px solid #1f1f1f;}
+#footer .google_play{margin-right: 20px;}
+
+/*
+Responsive device
+*/
+
+@media only screen and (max-width: 1900px) and (min-width: 1550px)
+{
+	#header_area ul li {padding: 25px 0px;}
+	#header_area ul li a{text-transform: uppercase;display: block;text-decoration: none;color: #ffffff;padding: 18px 10px;}
+	#header_area ul li a.last{background:linear-gradient(to right, #ee6f64,#fd9c7b);border-radius: 30px;padding: 15px 30px;}
+	#menuRes .menuResponsive{display: none}
+}
+
+@media only screen and (max-width: 1550px) and (min-width: 1200px)
+{
+	#header_area ul li {padding: 25px 0px;font-size: 10px}
+	#header_area ul li a{text-transform: uppercase;display: block;text-decoration: none;color: #ffffff;padding: 18px 10px;}
+	#header_area ul li a.last{background:linear-gradient(to right, #ee6f64,#fd9c7b);border-radius: 30px;padding: 15px 30px;}
+	#menuRes .menuResponsive{display: none}
+}
+
+@media only screen  and (max-width: 1200px)
+{
+	#header_area .nav{display: none;}
+
+   #menuRes .menuResponsive{display: none}
+	#header_area img{padding: 20px;}
+	#content img{width: 100%}
+	#header_area .fa-3x{display: block; padding: 20px;float: left}
+
+}
+
+
+
