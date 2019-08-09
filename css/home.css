@@ -47,7 +47,7 @@ Breadcrumb1
 */
 .breadcumb{margin-top: -350px;}
 .breadcrumb1{position: relative;}
-.breadcrumb1 .form{position: absolute;width: 100%;top: -80px;}
+.breadcrumb1 .form{position: absolute;width: 100%;top: -30px;}
 
 /*
 /*
@@ -57,11 +57,20 @@ Form Search
 .breadcrumb1 .button a{display:block;margin-top: 35px;background:linear-gradient(to right, #ee6f64,#fd9c7b);border-radius: 30px;padding: 10px;width: 60%;text-decoration: none;color:white;text-align: center;}
 
 .breadcrumb1 .container{min-height: 200px;padding-top:50px;background: #ffffff}
+.breadcrumb1 img{min-height: 700px;}
+
 /*
   Slide
 
 */
-.slide h1{font-size: 30px;}
+.slide{position: absolute;width: 100%;top:600px;}
+.slide .img{border:none;}
+.slide h1{font-size: 24px;font-weight: 500;color: #ffffff}
+.slide .item .content{padding: 25px;background: #ffffff;margin-top: -2px;}
+.slide .item{border-bottom: none;}
+.slide .item p,h6{font-size: 14px;}
+.slide .item h6 i{color: #ffa800}
+
 /*
 
 Footer Style
