@@ -110,11 +110,13 @@ Form Search
 /*breadcrumb4 style*/
 .breadcrumb4{background: #ececec;margin-top: 100px;clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);min-height: 714px;}
 .breadcrumb4 .item2{margin-left: 33px;}
-.breadcrumb4 .row .col-md-6{margin-top: 56px;}
+.breadcrumb4 .row .col-md-5{margin-top: 56px;}
+.breadcrumb4 .row .col-md-7{margin-top: 56px;}
 .breadcrumb4 h3{text-transform: uppercase;font-size: 24px;font-weight: 530;margin-top: 63px;margin-bottom: 56px;}
 .breadcrumb4 p{padding-right: 120px;color: #bebebe}
 /*breadcrumb5 style*/
 .breadcrumb5 h3{font-size: 24px;font-weight: 550;margin-top: 60px;margin-bottom: 60px;}
+.breadcrumb5 .container{padding: 0;}
 .breadcrumb5 .card{border: none;}
 .breadcrumb5 .card-body{padding:0;}
 .breadcrumb5 .card-body h5,p,a{font-size: 14px;}
@@ -270,6 +272,13 @@ Responsive device
 #header_area ul li .language-res{width: 120%;}
 #header_area ul li .account{width: 250%;}
 }
+@media screen and (min-width: 1200px){
+    .container{
+        max-width:1170px; 
+
+    }
+}
+
 
 
 
