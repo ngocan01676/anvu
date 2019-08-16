@@ -5,20 +5,18 @@ Common CSS
 Font face
 */
 
-@font-face {font-family: myFont;src:url('font/AvertaDemo-Regular.otf')}
-body{font-family: 'myFont',sans-serif; line-height: 1,3em;font-weight: 500;font-size: 14px;}
 
-.fa-3x{display: none;color: white;}
+.fa-3x{display: none;color: white;font-size: 30px;}
 #menuRes .menuResponsive{display: none}
 a{transition: all 0.5s ;text-decoration: none;}
-
+body{font-family: "Conv_AvertaDemo-Regular"}
 /* 
 Top header Area
 */
 
-#header_area{background: #111111;}
+#header_area{background: #111111;padding:0 60px;}
 #header_area .header-right{}
-#header_area .bar-img{display: flex;width: 100%}
+#header_area .bar-img{display: flex;width: 100%;align-items: center;}
 #header_area img{margin-left: 15px;margin-top: 15px;}
 #header_area ul{list-style: none;padding:0;margin: 0;text-align: left }
 #header_area ul li{font-size: 15px !important;position: relative; }
@@ -38,7 +36,7 @@ Top header Area
 #header_area ul li a:hover{color: #fd9c7b}
 #header_area ul li a:last-child:hover{color: #595959}
 #header_area ul li:hover .muiten{display: block;}
-#header_area ul li .account{width: 200%;margin-top: 13px;}
+#header_area ul li .account{width: 250%;margin-top: 13px;}
 #header_area ul li .muiten1{ display: none; width: 0;height: 0;border-style: solid;border-width: 0 5px 10px 5px;border-color: transparent transparent #ffffff transparent;position: absolute;left: 30px;top:75px;left: 10px;}
 #header_area ul li:hover .muiten1{display: block;}
 
@@ -50,20 +48,20 @@ Top header Area
 #menuRes .menuResponsive{list-style: none;padding: 0;margin: 0}
 #menuRes .menuResponsive li{padding: 10px ;}
 #menuRes .menuResponsive li a{text-transform: uppercase;display: block;text-decoration: none;color: #ffffff}
-#menuRes .menuResponsive li a.last{background:linear-gradient(to right, #ee6f64,#fd9c7b);border-radius: 30px;padding: 10px; width: 200px}
+#menuRes .menuResponsive li a.last{background:linear-gradient(to right, #ee6f64,#fd9c7b);border-radius: 30px;padding: 10px; width: 130px;}
 
 /*
 /* 
 map
 */
-/.clip_path{clip-path: polygon(0 0, 100% 1%, 100% 50%, 50% 64%, 0% 50%);margin-top: -5px;}
+.clip_path{clip-path: polygon(0 0, 100% 1%, 100% 50%, 50% 64%, 0% 50%);margin-top: -5px;z-index: 1}
 /*
 
 Breadcrumb1
 */
 
-.breadcrumb1{position: relative;background-image: url(../images/nen.png);min-height: 750px;background-position: center;margin-top: -330px}
-.breadcrumb1 .form{position: absolute;width: 100%;top: -5px;}
+.breadcrumb1{background-image: url(../images/Layer6.jpg);min-height: 650px;margin-top: -330px;background-size: cover;z-index: -9999}
+.breadcrumb1 .form{position: absolute;width: 100%;top: 420px;z-index: 100000;background-size: cover;}
 
 /*
 /*
@@ -79,8 +77,9 @@ Form Search
   Slide1
 
 */
-.owl-theme .owl-dots .owl-dot  span{background:#ef6f64}
-.slide{padding-top: 200px;}
+
+.slide{padding-top: 150px;}
+.slide .container{padding:0;}
 .slide h1{font-size: 24px;font-weight: 500;color: #ffffff;padding: 30px 0}
 .slide .item .content{padding: 25px;background: #ffffff;margin-top: -2px;}
 .slide .item{border-bottom: none;}
@@ -97,7 +96,7 @@ Form Search
 .breadcrumb2 .owl-carousel2 .item .img-content .item2 p .sale {color: #ef6f64}
 .breadcrumb2 .owl-carousel2 .item .img-content .item2 h4{font-size: 14px;font-weight: 600}
 .breadcrumb2 .owl-carousel2 .item .row{margin-top: 33px;}
-.owl-theme .owl-dots .owl-dot span {width: 10px; height: 10px;margin: 5px 7px;background: #715a5a;display: block;-webkit-backface-visibility: visible;transition: opacity .2s ease;border-radius: 30px;
+.owl-theme .owl-dots .owl-dot span {width: 10px; height: 10px;margin: 40px 7px;background: #715a5a;display: block;-webkit-backface-visibility: visible;transition: opacity .2s ease;border-radius: 30px;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {background: red;}
 /*breadcumb3 style*/
@@ -126,14 +125,15 @@ Form Search
 
 /*breadcrum6 style*/
 .breadcrumb6{clip-path: polygon(0 6%, 100% 0, 100% 100%, 0 100%);background: #1a1a1a;min-height: 755px;margin-top: 60px}
-.breadcrumb6 .col-md-6{margin-top:60px }
+.breadcrumb6 .col-md-8{margin-top:60px }
 .breadcrumb6 h4{font-size: 24px;color: #ffffff}
 
 .breadcrumb6 .content{color:#ffffff;position: absolute;top: 140px;left: 130px;text-align: center;}
+.breadcrumb6 .content span{position: relative;top: -30px;}
 .breadcrumb6 .content .first{font-size: 40px;margin:0;}
 .breadcrumb6 .content .last{font-size: 100px;font-weight: 600;margin:0;}
 .breadcrumb6 .content .last span{font-size: 70px;}
-.breadcrumb6  .breadcrumb6-right{padding-left: 170px;margin-top: 120px;}
+.breadcrumb6  .breadcrumb6-right{margin-top: 120px;}
 .breadcrumb6  .breadcrumb6-right .text1{margin-top: 22px;font-size: 14px;}
 .breadcrumb6 .check-radio{display: flex;}
 .breadcrumb6 .check-radio p{margin:0;}
@@ -168,12 +168,12 @@ Form Search
 [type="radio"]:checked + label:after,
 [type="radio"]:not(:checked) + label:after {
     content: '';
-    width: 12px;
-    height: 12px;
+    width: 7px;
+    height: 7px;
     background: #F87DA9;
     position: absolute;
-    top: 3px;
-    left: 3px;
+    top: 5px;
+    left: 5px;
     border-radius: 100%;
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
@@ -205,11 +205,11 @@ Footer Stylefile:///C:/Users/anpla/OneDrive/Desktop/Frontend/Blog_HomeV3/index.h
 */
 #footer{ background: #111111;padding: 30px;color: #ffffff;font-size: 14px;}
 #footer i{font-size: 15px;margin-right: 10px}
-#footer p{color: #7c7c7c}
+#footer p a{color: white;text-decoration: none;}
 #footer .aht{margin-top: 20px;}
 #footer .content{margin-top: 15px;}
 #footer .facebook{margin-top: 15px;}
-#footer .icons i{font-size: 25px}
+#footer .icons a i{font-size: 25px}
 #footer .gachchan{border:1px solid #1f1f1f;}
 #footer .google_play{margin-right: 20px;}
 
@@ -246,6 +246,29 @@ Responsive device
 @media only screen and (max-width: 768px)
 {
    .breadcrumb1 .slide{padding-top: 300px;}
+   #header_area{background: #111111;padding:0}
+
+.breadcrumb6 .content{color:#ffffff;position: absolute;top: 140px;left: 130px;text-align: center;}
+.breadcrumb6 .content .first{font-size: 30px;margin:0;}
+.breadcrumb6 .content .last{font-size: 60px;font-weight: 600;margin:0;}
+.slide .item{padding:0 15px;}
+.breadcrumb1 .form .container .col-md-3:last-child{padding-bottom: 15px;padding-left: 120px;}
+.breadcrumb6 .content span{position: relative;top: -10px;}
+.slide .container{padding:0 15px;}
+
+}
+@media only screen and (max-width: 1024px)
+{
+  .breadcrumb1 .form .button a{
+        font-size: 11px;
+   } 
+}
+@media only screen and (max-width: 1350px) and (min-width: 1200px){
+#header_area ul li a{font-size: 12px;}
+#header_area ul li a.last{padding: 15px 15px;}
+#header_area ul li .sub-menu li{padding:6px;}
+#header_area ul li .language-res{width: 120%;}
+#header_area ul li .account{width: 250%;}
 }
 
 
