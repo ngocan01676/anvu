@@ -62,16 +62,20 @@ Breadcrumb1
 
 .breadcrumb1{background-image: url(../images/Layer6.jpg);min-height: 650px;margin-top: -330px;background-size: cover;z-index: -9999}
 .breadcrumb1 .form{position: absolute;width: 100%;top: 420px;z-index: 100000;background-size: cover;}
+.breadcrumb1 .container{padding: 0 52px;}
+
+
 
 /*
 /*
 Form Search
 */
 
-.breadcrumb1 .form .button a{display:block;margin-top: 35px;background:linear-gradient(to right, #ee6f64,#fd9c7b);border-radius: 30px;padding: 10px;width: 60%;text-decoration: none;color:white;text-align: center;}
-
-.breadcrumb1 .form .container{min-height: 122px;padding-top:20px;background: #ffffff}
-
+.breadcrumb1 .form .container .row .col-md-2 .button a{margin-right:30px;display:block;margin-top: 35px;background:linear-gradient(to right, #ee6f64,#fd9c7b);border-radius: 30px;padding: 10px;width: 130%;text-decoration: none;color:white;text-align: center;}
+.breadcrumb1 .form .container .row .col-md-2{padding:0;}
+.breadcrumb1 .form .container .row .col-md-2{padding:0 30px;}
+.breadcrumb1 .form .container{min-height: 120px;padding-top:20px;background: #ffffff}
+ 
 
 /*
   Slide1
@@ -100,7 +104,8 @@ Form Search
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {background: red;}
 /*breadcumb3 style*/
-..breadcrumb3{min-height: 565px;}
+.breadcrumb3{min-height: 565px;}
+.breadcrumb3 .container{padding:0;}
 .breadcrumb3 h5{font-size: 24px;font-weight: 600;margin-top: 60px;margin-bottom: 57px;}
 
 .breadcrumb3 .first{font-size: 14px;font-weight: 600;margin-top: 33px;margin-bottom: 3px;}
@@ -111,7 +116,7 @@ Form Search
 .breadcrumb4{background: #ececec;margin-top: 100px;clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);min-height: 714px;}
 .breadcrumb4 .item2{margin-left: 33px;}
 .breadcrumb4 .row .col-md-5{margin-top: 56px;}
-.breadcrumb4 .row .col-md-7{margin-top: 56px;}
+.breadcrumb4 .row .col-md-7{margin-top: 56px;padding-left: 170px}
 .breadcrumb4 h3{text-transform: uppercase;font-size: 24px;font-weight: 530;margin-top: 63px;margin-bottom: 56px;}
 .breadcrumb4 p{padding-right: 120px;color: #bebebe}
 /*breadcrumb5 style*/
@@ -254,9 +259,12 @@ Responsive device
 .breadcrumb6 .content .first{font-size: 30px;margin:0;}
 .breadcrumb6 .content .last{font-size: 60px;font-weight: 600;margin:0;}
 .slide .item{padding:0 15px;}
-.breadcrumb1 .form .container .col-md-3:last-child{padding-bottom: 15px;padding-left: 120px;}
+.breadcrumb1 .form .container .col-md-2:last-child{padding-bottom: 15px;padding-left: 100px;}
+.breadcrumb1 .form .container .col-md-2 a{margin-left: 30px;} 
 .breadcrumb6 .content span{position: relative;top: -10px;}
 .slide .container{padding:0 15px;}
+.breadcrumb5 .container{padding: 0 15px;}
+.breadcrumb3 .container{padding:0 15px;}
 
 }
 @media only screen and (max-width: 1024px)
