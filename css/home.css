@@ -14,14 +14,14 @@ body{font-family: "Conv_AvertaDemo-Regular"}
 Top header Area
 */
 
-#header_area{background: #111111;padding:0 60px;}
+#header_area{background: #111111;padding: 0 49px;}
 #header_area .header-right{}
 #header_area .bar-img{display: flex;width: 100%;align-items: center;}
 #header_area img{margin-left: 15px;margin-top: 15px;}
 #header_area ul{list-style: none;padding:0;margin: 0;text-align: left }
 #header_area ul li{font-size: 15px !important;position: relative; }
 #header_area ul li {padding: 25px 5px;}
-#header_area ul li a img{margin-top:-10px;margin-left: -8px;}
+#header_area ul li a img{margin-top:-10px;margin-left: -16px;}
 #header_area ul li a{font-size: 14px;text-transform: uppercase;display: block;text-decoration: none;color: #ffffff;padding: 18px 15px;}
  
 #header_area ul li a.last{background:linear-gradient(to right, #ee6f64,#fd9c7b);border-radius: 30px;padding: 15px 30px;}
@@ -287,6 +287,9 @@ Responsive device
     }
 }
 
+@media screen and (min-width: 1920px){
+#header_area .col-md-9{padding: 0;}
 
+}
 
 
