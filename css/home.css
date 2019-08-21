@@ -217,7 +217,7 @@ Form Search
 
 Footer Stylefile:///C:/Users/anpla/OneDrive/Desktop/Frontend/Blog_HomeV3/index.html
 */
-#footer{ background: #111111;padding-top:80px;color: #ffffff;font-size: 14px;}
+#footer{ background: #111111;padding-top:80px;color: #ffffff;font-size: 14px;padding-bottom: 30px;}
 #footer i{font-size: 15px;margin-right: 10px}
 #footer p a{color: white;text-decoration: none;}
 #footer .aht{margin-top: 30px;}
